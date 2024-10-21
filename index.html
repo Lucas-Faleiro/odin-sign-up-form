@@ -8,6 +8,64 @@
     <title>Sign-up Form</title>
   </head>
   <body>
-    <ul></ul>
+    <header>
+      <img
+        id="img-background"
+        src="./images/halie-west-25xggax4bSA-unsplash.jpg"
+        alt="Wet leaves"
+      />
+      <div id="banner">
+        <img id="img-odin" src="./images/odin-lined.png" alt="odin-logo" />
+        <h1 id="header-odin">ODIN</h1>
+      </div>
+      <p id="credit-text">Photo by Halie West on Unsplash</p>
+    </header>
+    <main>
+      <section>
+        <p>
+          This is just a representative form, it does NOTHING! It will be sent
+          to nowhere, so your information is SAFE! Write your information down
+          here NOW!
+        </p>
+        <p>It really does nothing.</p>
+      </section>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Write it down!</legend>
+          <div>
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" name="first_name" id="first_name" />
+          </div>
+          <div>
+            <label for="last_name">LAST NAME</label>
+            <input type="text" name="last_name" id="last_name" />
+          </div>
+          <div>
+            <label for="user_email">EMAIL</label>
+            <input type="email" name="user_email" id="user_email" />
+          </div>
+          <div>
+            <label for="user_phone">PHONE NUMBER</label>
+            <input type="tel" name="user_phone" id="user_phone" />
+          </div>
+          <div>
+            <label for="user_password">PASSWORD</label>
+            <input type="password" name="user_password" id="user_password" />
+          </div>
+          <div>
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              name="confirm_password"
+              id="confirm_password"
+            />
+          </div>
+          <div>
+            <button type="submit">Create Account</button>
+          </div>
+        </fieldset>
+      </form>
+      <p>Already have an account? Log in</p>
+    </main>
   </body>
 </html>

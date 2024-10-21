@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "norse-bold";
+  src: url("./fonts/norse-bold-webfont.woff2") format("woff2"),
+    url("./fonts/norse-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  height: 100dvh;
+}
+
+header {
+  width: 35rem;
+  flex-shrink: 0;
+}
+
+#banner {
+  display: flex;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  width: 35rem;
+  height: 10rem;
+  top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+#img-background {
+  height: 100%;
+  width: 100%;
+}
+
+#header-odin {
+  font-family: "norse-bold", system-ui;
+  font-size: 6rem;
+}
+
+#img-odin {
+  width: 7rem;
+  height: 9rem;
+}
+
+#credit-text {
+  position: absolute;
+  margin: 0;
+  bottom: 0.5rem;
+  left: 10rem;
+  color: white;
+}
