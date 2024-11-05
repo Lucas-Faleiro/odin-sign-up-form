@@ -114,4 +114,9 @@ input {
 input:focus {
   outline: none;
   border: 2px solid #7895e7;
+  box-shadow: 2px 2px 4px rgba(200, 201, 204, 0.6);
+}
+
+input:invalid:focus {
+  border: 2px solid red;
 }

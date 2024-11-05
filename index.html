@@ -43,7 +43,7 @@
           <div class="info-container">
             <div class="label-input">
               <label for="first_name">FIRST NAME</label>
-              <input type="text" name="first_name" id="first_name" />
+              <input type="text" name="first_name" id="first_name" autofocus />
             </div>
             <div class="label-input">
               <label for="last_name">LAST NAME</label>
@@ -53,17 +53,22 @@
           <div class="info-container">
             <div class="label-input">
               <label for="user_email">EMAIL</label>
-              <input type="email" name="user_email" id="user_email" />
+              <input type="email" name="user_email" id="user_email" required />
             </div>
             <div class="label-input">
               <label for="user_phone">PHONE NUMBER</label>
-              <input type="tel" name="user_phone" id="user_phone" />
+              <input type="tel" name="user_phone" id="user_phone" required />
             </div>
           </div>
           <div class="info-container">
             <div class="label-input">
               <label for="user_password">PASSWORD</label>
-              <input type="password" name="user_password" id="user_password" />
+              <input
+                type="password"
+                name="user_password"
+                id="user_password"
+                required
+              />
             </div>
             <div class="label-input">
               <label for="confirm_password">CONFIRM PASSWORD</label>
@@ -71,6 +76,7 @@
                 type="password"
                 name="confirm_password"
                 id="confirm_password"
+                required
               />
             </div>
           </div>
