@@ -91,17 +91,27 @@ legend {
   top: 20px;
   left: 7rem;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .info-container {
   display: flex;
-  justify-content: space-evenly;
-  margin-right: 18rem;
+  justify-content: space-around;
+  margin-right: 13rem;
 }
 
 .label-input {
   display: flex;
   flex-direction: column;
   margin-top: 1.5rem;
+}
+
+input {
+  border: 2px solid #e5e7eb;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #7895e7;
 }
